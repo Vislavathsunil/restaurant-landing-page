@@ -13,7 +13,7 @@ function Expertise() {
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
-                    className='mb-4 text-3xl lg:text-4xl '>Our Expertise</motion.h2>
+                    className='mb-4 text-3xl lg:text-4xl font-semibold '>Our Expertise</motion.h2>
 
                 <div className='px-8 py-8'  >
                     {

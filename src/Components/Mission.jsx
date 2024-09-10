@@ -16,7 +16,7 @@ function Mission() {
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
-                    className='mb-8 text-3xl lg:text-4xl'>Our Mission</motion.h2>
+                    className='mb-8 text-3xl lg:text-4xl font-semibold'>Our Mission</motion.h2>
 
                 <div className='relative flex justify-center items-center px-8' >
                     <video src={MissionVideo} autoPlay muted loop poster={MissionPoster} className='w-full rounded-3xl'> </video>

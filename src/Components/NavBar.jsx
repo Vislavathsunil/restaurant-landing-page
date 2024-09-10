@@ -52,7 +52,7 @@ function NavBar() {
         <nav className='fixed z-30 top-4 left-0 right-0 flex flex-col items-center '   >
 
             {/* Desktop navbar  */}
-            <div className='border  border-stone-50 mx-auto  max-sm:hidden max-w-2xl lg-flex  justify-center  items-center gap-4 px-6 py-4 backdrop-blur-lg  rounded-lg ' >
+            <div className='border  border-stone-50 mx-auto  hidden md:block max-w-2xl lg-flex  justify-center  items-center gap-4 px-6 py-4 backdrop-blur-lg  rounded-lg ' >
                 <div className='flex items-center justify-between gap-6'>
 
                     <div>
@@ -72,7 +72,7 @@ function NavBar() {
                 </div>
             </div>
 
-            <div className='md:hidden w-full px-4' >
+            <div className='md:hidden lg:hidden w-full px-4' >
 
                 <div className=' flex items-center justify-between'>
 
@@ -83,7 +83,7 @@ function NavBar() {
                     </div>
 
                     <div className='lg:hidden flex justify-center items-center'>
-                        <button className="w-8 h-8" onClick={handleMobile}  > {!isMobile ? <FaBars /> : <FaTimes />}</button>
+                        <button className="w-10 h-10" onClick={handleMobile}  > {!isMobile ? <FaBars /> : <FaTimes />}</button>
                     </div>
 
 

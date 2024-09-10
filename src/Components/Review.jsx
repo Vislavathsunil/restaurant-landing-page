@@ -15,7 +15,7 @@ function Review() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
 
-                    className='mb-8 text-3xl lg:text-4xl text-center '>Review</motion.h2>
+                    className='mb-8 text-3xl  lg:text-4xl text-center font-semibold '>Review</motion.h2>
 
                 <div className='flex flex-col'>
 
@@ -39,22 +39,19 @@ function Review() {
                 </div>
 
                 {/* Customer images  */}
-                <div className="flex  flex-col justify-center  max-sm:items-center gap-4 md:flex-row  md:gap-4  my-8 ">
+                <div className="flex flex-col justify-center  items-center  gap-4 md:flex-row md:items-center md:gap-8  my-8 ">
                     {
                         CUSTOMERIMAGES.map((image, index) => (
                             <motion.img
                                 initial={{ opacity: 0, x: 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.25 }}
-                                key={index} src={image} alt="" width={160} height={200} className="rounded-tl-lg rounded-br-xl" />
+                                key={index} src={image} alt={`{customer${index}}`} className="rounded-tl-lg rounded-br-xl  md:w-40 md:h-52 p-4 md:p-0 " />
                         ))
                     }
                 </div>
 
-
             </div>
-
-
         </section>
     )
 }

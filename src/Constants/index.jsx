@@ -129,7 +129,7 @@ export const CUSTOMERIMAGES = [customer1, customer2, customer3, customer4]
 export const CONTACT = [
   { key: "address", href:"", value: "Address: 123 Main Street, Kukatpally, Hyderabad, 144115" },
   { key: "phone",href:"callto: +91 6303141055",  value: "Phone: +91 6303141055" },
-  { key: "email",href:"mailto: mrsunil@restaurant.com", value: "Email: mrsunil@restaurant.com" },
+  { key: "email",href:"mailto: mrsunilpower@gmail.com", value: "Email: mrsunilpower@gmail.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [

@@ -15,7 +15,7 @@ function Dishes() {
                         initial={{ opacity: 0, y: -20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
-                        className='mb-8 text-3xl lg:text-4xl'>Dishes</motion.h2>
+                        className='mb-8 text-3xl lg:text-4xl font-semibold ' >Dishes</motion.h2>
                 </div>
 
                 <div>
@@ -34,8 +34,8 @@ function Dishes() {
                                         <img src={dish.image} alt={dish.title} className='w-full rounded-lg' />
                                     </div>
                                     <div className='py-4' >
-                                        <h4 className='text-2xl    lg:text-base   font-semibold' >{dish.title}</h4>
-                                        <p className='text-xl    lg:text-sm text-gray-400 pt-2' >{dish.description}</p>
+                                        <h4 className='text-xl lg:text-base font-semibold' >{dish.title}</h4>
+                                        <p className='text-lg lg:text-sm text-gray-400 pt-2' >{dish.description}</p>
                                     </div>
 
                                 </motion.div>

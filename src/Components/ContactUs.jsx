@@ -12,7 +12,7 @@ function ContactUs() {
                       initial={{ opacity: 0, y: -20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 1 }}
-                className='mb-8 text-3xl lg:text-4xl text-center'>Contact Us</motion.h2>
+                className='mb-8 text-3xl lg:text-4xl text-center font-semibold'>Contact Us</motion.h2>
 
                 <div className="flex flex-col md:flex-row  items-center justify-around gap-8 my-8" >
                     <div className='flex flex-col justify-center gap-4 ' >

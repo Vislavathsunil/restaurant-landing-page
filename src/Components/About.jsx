@@ -6,7 +6,7 @@ function About() {
     return (
         <section className='container mx-auto py-8 mb-8 ' >
 
-            <h2 className='text-center mb-6 text-2xl lg:text-3xl '  >
+            <h2 className='text-center mb-6 text-2xl lg:text-3xl font-semibold '  >
                 About Us
             </h2>
 
