@@ -78,12 +78,12 @@ function NavBar() {
 
                     <div className='flex justify-center items-center '>
                         <a href="#" onClick={handleLogo}>
-                            <img src={logo} alt="brand" width={150} height={150} className='' />
+                            <img src={logo} alt="brand" width={150} height={150} />
                         </a>
                     </div>
 
                     <div className='lg:hidden flex justify-center items-center'>
-                        <button className="w-10 h-10" onClick={handleMobile}  > {!isMobile ? <FaBars /> : <FaTimes />}</button>
+                        <button className="w-14 h-14" onClick={handleMobile}  > {!isMobile ? <FaBars /> : <FaTimes />}</button>
                     </div>
 
 
