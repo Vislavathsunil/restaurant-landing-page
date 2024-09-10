@@ -83,7 +83,7 @@ function NavBar() {
                     </div>
 
                     <div className='lg:hidden flex justify-center items-center'>
-                        <button className="w-10 h-10" onClick={handleMobile}  > {!isMobile ? <FaBars className="w-8 h-8"/> : <FaTimes className="w-10 h-10" />}</button>
+                        <button className="w-8 h-8" onClick={handleMobile}  > {!isMobile ? <FaBars className="w-8 h-8"/> : <FaTimes className="w-8 h-8" />}</button>
                     </div>
 
 
