@@ -39,14 +39,14 @@ function Review() {
                 </div>
 
                 {/* Customer images  */}
-                <div className="flex flex-col justify-center  items-center  gap-4 md:flex-row md:items-center md:gap-8  my-8 ">
+                <div className="flex flex-col justify-center  items-center  gap-6 md:flex-row md:items-center md:gap-8  my-8 ">
                     {
                         CUSTOMERIMAGES.map((image, index) => (
                             <motion.img
                                 initial={{ opacity: 0, x: 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.25 }}
-                                key={index} src={image} alt={`{customer${index}}`} className="rounded-tl-lg rounded-br-xl  md:w-40 md:h-52 p-4 md:p-0 " />
+                                key={index} src={image} alt={`{customer${index}}`} className=" rounded-tl-xl rounded-br-xl w-full h-auto md:w-40 md:h-52 p-0 " />
                         ))
                     }
                 </div>

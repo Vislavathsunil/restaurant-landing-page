@@ -139,11 +139,11 @@ export const SOCIAL_MEDIA_LINKS = [
   },
 
   {
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/the_darkhacker010/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/mrsunil0101?t=g6BGyztV-BTUce8WUioY7A&s=08 ",
     icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
   },
 ];

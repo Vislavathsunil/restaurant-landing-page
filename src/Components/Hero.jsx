@@ -21,8 +21,8 @@ function Hero() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1.5 }}
                         loa
-                        src={logo} alt="logo" className='w-[300px] md:w-[800px] lg:w-[800px]' />
-                    <p className='mt-2 text-left text-2xl md:text-xl pb-6 md:pb-0'>Hyderabad</p>
+                        src={logo} alt="logo" className='w-[300px] md:w-[800px] lg:w-[800px] ' />
+                    <p className='mt-2 text-left text-2xl md:text-xl pb-6 md:pb-0 font-serif tracking-wider'>Hyderabad</p>
                 </div>
             </div>
         </section>
