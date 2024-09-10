@@ -1,5 +1,5 @@
 import { REVIEW } from "../Constants/index"
-import Xaviour from "../assets/Xaviour.jpeg"
+import reviewer from "../assets/xaviour.jpeg"
 import { CUSTOMERIMAGES } from "../Constants/index"
 
 //motion framer
@@ -26,11 +26,11 @@ function Review() {
                         className="mb-10 text-3xl lg:mx-32 lg:mt-10 lg:text-[2.5rem] font-light leading-normal  " >{REVIEW.content}</motion.p>
 
                     <div className="flex justify-center items-center gap-6 mb-6 " >
-                        <img src={Xaviour} width={80} height={80} alt={REVIEW.name} className="rounded-full" />
+                        <img src={reviewer} width={80} height={80} alt={REVIEW.name} className="rounded-full" />
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 1}}
+                            transition={{ duration: 1 }}
                             className="flex flex-col justify-center " >
                             <h4 className="text-lg" >{REVIEW.name}</h4>
                             <p className="text-sm text-stone-400" >{REVIEW.profession}</p>
